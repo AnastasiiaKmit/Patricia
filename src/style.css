@@ -4,18 +4,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  margin: 40px 139px auto 140px;
-}
-
-.projects-container {
-  padding: 160px 20px;
-}
-
-.row {
-  margin: auto 0;
-}
-
 h1,
 h2 {
   font-family: "Playfair Display", serif;
@@ -58,17 +46,30 @@ button {
   border-radius: 4px;
 }
 
+a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 img {
-  width: 560px;
-  /*height: 100%;*/
+  width: 100%;
+  height: auto;
+  max-width: 50vw;
 }
 
 @media (max-width: 900px) {
   h1 {
-    font-soze: 44px;
+    font-size: 44px;
     line-height: 56px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 34px;
+    line-height: 44px;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 } ;
