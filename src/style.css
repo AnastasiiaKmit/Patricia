@@ -1,21 +1,19 @@
-* {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
-/*.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}*/
-
-/*.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}*/
-
 .container {
   margin: 40px 139px auto 140px;
+}
+
+.projects-container {
+  padding: 160px 20px;
+}
+
+.row {
+  margin: auto 0;
 }
 
 h1,
@@ -33,6 +31,12 @@ h2 {
   font-size: 18px;
   line-height: 27px;
   font-weight: 900;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
 }
 
 article {
@@ -58,3 +62,5 @@ img {
   width: 560px;
   /*height: 100%;*/
 }
+
+@media();
