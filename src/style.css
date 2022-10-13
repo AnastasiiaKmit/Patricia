@@ -2,17 +2,17 @@
   box-sizing: border-box;
 }
 
-.column {
+/*.column {
   float: left;
   width: 50%;
   padding: 10px;
-}
+}*/
 
-.row::after {
+/*.row::after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
 
 .container {
   margin: 40px 139px auto 140px;
@@ -42,6 +42,11 @@ article {
   line-height: 30px;
   color: #272142;
   opacity: 0.7;
+}
+
+button {
+  background-color: #6c63ff;
+  color: white;
 }
 
 img {
