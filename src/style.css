@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.projects-container {
+  padding: 160px 20px;
+}
+
 h1,
 h2 {
   font-family: "Playfair Display", serif;
