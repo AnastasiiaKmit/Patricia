@@ -14,6 +14,49 @@ body {
   box-sizing: border-box;
 }
 
+.nav-container {
+  margin: 0;
+  padding: 0 80px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav img.logo {
+  max-width: 150px;
+  max-height: 40px;
+}
+
+nav img.small-logo {
+  max-height: 40px;
+  max-width: 50px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 5px;
+  line-height: 42px;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+nav li a:hover,
+nav li a.active {
+  color: #6c63ff;
+  transition: all 15ms ease-in-out;
+}
+
 .projects-container,
 .contact-container {
   padding: 160px 20px;
@@ -35,6 +78,10 @@ h1 {
   font-size: 64px;
   line-height: 86px;
   font-weight: 700;
+}
+
+.project-h1 {
+  text-align: center;
 }
 
 h2 {
@@ -68,7 +115,8 @@ button {
   border-radius: 4px;
 }
 
-a {
+a .footer,
+a .my-projects {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -93,7 +141,9 @@ img {
     font-size: 34px;
     line-height: 44px;
   }
-  a {
+
+  a .footer,
+  a .my-projects {
     display: block;
     margin: 0 auto;
     text-align: center;

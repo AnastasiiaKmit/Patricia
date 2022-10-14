@@ -21,8 +21,24 @@
     <title>Patricia project</title>
   </head>
   <body>
+    <div class="container nav-container">
+      <nav class="d-flex justify-content-between">
+        <img src="media/logo.png" class="logo d-none d-md-block" alt="" />
+        <img
+          src="media/logo-small.jpg"
+          class="small-logo d-block d-md-none"
+          alt=""
+        />
+        <ul>
+          <li class="nav-li"><a href="#" class="nav-a">Home</a></li>
+          <li class="nav-li"><a href="#" class="nav-a">About</a></li>
+          <li class="nav-li"><a href="#" class="nav-a active">Work</a></li>
+          <li class="nav-li"><a href="#" class="nav-a">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="projects-container container">
-      <h1 class="mb-5">Take a look at what I've been working on</h1>
+      <h1 class="mb-5 project-h1">Take a look at what I've been working on</h1>
       <div class="row mb-3">
         <div class="col-md-6 projects-column">
           <img
@@ -72,7 +88,7 @@
       </div>
     </div>
     <footer>
-      <a href="contacts.html" target="_blank">
+      <a href="contacts.html" class="footer" target="_blank">
         <button class="mb-5">Contact me</button>
       </a>
     </footer>
