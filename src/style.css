@@ -57,6 +57,7 @@ nav li a.active {
   transition: all 15ms ease-in-out;
 }
 
+.about-container,
 .projects-container,
 .contact-container {
   padding: 160px 20px;
@@ -80,7 +81,9 @@ h1 {
   font-weight: 700;
 }
 
-.project-h1 {
+.about-h1,
+.project-h1,
+.about-h2 {
   text-align: center;
 }
 
@@ -115,8 +118,8 @@ button {
   border-radius: 4px;
 }
 
-a .footer,
-a .my-projects {
+a.footer,
+a.my-projects {
   display: block;
   margin: 0 auto;
   text-align: center;
