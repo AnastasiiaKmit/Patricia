@@ -57,6 +57,11 @@ nav li a.active {
   transition: all 15ms ease-in-out;
 }
 
+div.hero {
+  background-color: #f9f7fe;
+  margin: 0;
+}
+
 .about-container,
 .projects-container,
 .contact-container {
