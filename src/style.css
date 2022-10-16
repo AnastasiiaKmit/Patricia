@@ -125,6 +125,11 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -162,11 +167,6 @@ a.button {
   text-decoration: none;
 }
 
-a.button:hover {
-  color: #212529;
-  transition: all 150ms ease-in-out;
-}
-
 a.btn-style {
   display: block;
   margin: 0 auto;
@@ -178,7 +178,14 @@ a.btn-style button {
   border: 1px solid var(--main-color);
 }
 
-a.footer,
+a.button:hover,
+a .btn-style:hover,
+a.button:hover {
+  color: #212529;
+  transition: all 150ms ease-in-out;
+  background-color: var(--main-color);
+}
+
 a.my-projects {
   display: block;
   margin: 0 auto;
@@ -197,6 +204,23 @@ img {
 
 footer {
   margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+footer .contact-box a {
+  margin-top: 20px;
 }
 
 footer .email-link {
@@ -252,10 +276,28 @@ footer .social-links a:hover {
     font-weight: bold;
   }
 
-  a .footer,
   a .my-projects {
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px 20px;
+  }
+
+  footer h4 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+
+  footer .contact-box .button {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 15px;
   }
 } ;
